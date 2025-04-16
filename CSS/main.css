@@ -1,5 +1,87 @@
-*{
-    padding: 0;
+/* Reset básico */
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
+  }
+  
+  /* Estilo do body */
+  body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: linear-gradient(135deg, #FFCAC9, #FFEEAD);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilo do container principal */
+  .container {
+    width: 90%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+  }
+  
+  /* Cabeçalho */
+  .container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff6b81;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo do formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Labels */
+  form label {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  /* Inputs e Select */
+  form input[type="text"],
+  form input[type="number"],
+  form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Botão de envio */
+  form button {
+    padding: 10px;
+    background-color: #ff6b81;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #ff4757;
+  }
+  
+  /* Seção de resultado */
+  #resultado {
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
